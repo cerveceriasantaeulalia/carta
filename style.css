@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  margin: 0 0 2.6em 0;
+  background-color: #812220;
+}
+
+h1,
+ul {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  margin: 1em;
+  font-size: calc(16px + 7 * ((100vw - 500px) / 900));
+}
+
+ul .seccion {
+  margin-top: 2em;
+  font-weight: 800;
+}
+
+ul .plato .nombre {
+  order: 1;
+}
+
+ul .plato .precio {
+  order: 3;
+}
+
+ul .plato .precio::after {
+  content: "€";
+}
+
+ul .plato::after {
+  content: "";
+  border-bottom: 0.1em dashed lightgrey;
+  flex-grow: 1;
+  order: 2;
+  margin: 0 0.3em 0 0.3em;
+}
+
+footer {
+  margin: 3em 0 2em 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a i {
+  margin: 0 0.4em 0 0.4em;
+  font-size: 2em;
+}
