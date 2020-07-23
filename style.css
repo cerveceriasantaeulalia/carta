@@ -6,13 +6,13 @@ header {
   display: flex;
   margin: 0 0 2.6em 0;
   background-color: #812220;
-  margin-top: 41px;
+  margin-top: 40px;
 }
 
 #botonera {
 	font-family: "Lato", sans-serif;
 	font-style: italic;
-	background-color: #FFF;
+	background-color: #812220;
 	background-repeat: repeat-x;
 	overflow: hidden;
 	position: fixed;
@@ -21,7 +21,7 @@ header {
 	right: 0px;
 	left: 0px;
 	height: 40px;
-	width: 99.3%;
+	width: 100%;
 	margin-top: 0px;
 	border-radius: 0px;
 	padding: 0px;
